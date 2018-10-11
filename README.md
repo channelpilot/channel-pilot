@@ -3,7 +3,28 @@
 ## Installation
 
 ```
-composer require channelpilot/channel-pilot
+composer require channel-pilot/channel-pilot
+```
+
+## Configuration
+
+In config_default.php (or specific) add
+
+```
+$config[AclConstants::ACL_DEFAULT_RULES] = [
+[
+    'bundle' => 'channel-pilot',
+    'controller' => 'index',
+    'action' => 'index',
+    'type' => 'allow',
+    ],
+]
+```
+
+```
+$config[KernelConstants::PROJECT_NAMESPACES] = [
+    'ChannelPilot',
+];
 ```
 
 ## Documentation

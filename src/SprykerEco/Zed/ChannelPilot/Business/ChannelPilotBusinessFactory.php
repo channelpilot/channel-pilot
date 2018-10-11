@@ -1,14 +1,14 @@
 <?php
 
-namespace SprykerEco\Zed\ChannelPilot\Business;
+namespace ChannelPilot\Zed\ChannelPilot\Business;
 
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
-use SprykerEco\Zed\ChannelPilot\ChannelPilotDependencyProvider;
+use ChannelPilot\Zed\ChannelPilot\ChannelPilotDependencyProvider;
 
 
 /**
- * @method \SprykerEco\Zed\ChannelPilot\ChannelPilotConfig getConfig()
- * @method \SprykerEco\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
+ * @method \ChannelPilot\Zed\ChannelPilot\ChannelPilotConfig getConfig()
+ * @method \ChannelPilot\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
  */
 class ChannelPilotBusinessFactory extends AbstractBusinessFactory
 {

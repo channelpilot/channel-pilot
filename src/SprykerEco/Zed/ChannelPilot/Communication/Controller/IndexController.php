@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerEco\Zed\ChannelPilot\Communication\Controller;
+namespace ChannelPilot\Zed\ChannelPilot\Communication\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -8,9 +8,9 @@ use Symfony\Component\HttpFoundation\Response;
 use Spryker\Zed\Kernel\Communication\Controller\AbstractController;
 
 /**
- * @method \SprykerEco\Zed\ChannelPilot\Business\ChannelPilotFacade getFacade()
- * @method \SprykerEco\Zed\ChannelPilot\Communication\ChannelPilotCommunicationFactory getFactory()
- * @method \SprykerEco\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
+ * @method \ChannelPilot\Zed\ChannelPilot\Business\ChannelPilotFacade getFacade()
+ * @method \ChannelPilot\Zed\ChannelPilot\Communication\ChannelPilotCommunicationFactory getFactory()
+ * @method \ChannelPilot\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
  */
 class IndexController extends AbstractController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerEco\Zed\ChannelPilot;
+namespace ChannelPilot\Zed\ChannelPilot;
 
 use Spryker\Zed\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Zed\Kernel\Container;

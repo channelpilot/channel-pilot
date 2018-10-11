@@ -1,13 +1,13 @@
 <?php
 
-namespace SprykerEco\Zed\ChannelPilot\Communication;
+namespace ChannelPilot\Zed\ChannelPilot\Communication;
 
 use Spryker\Zed\Kernel\Communication\AbstractCommunicationFactory;
-use SprykerEco\Zed\ChannelPilot\Business\ChannelPilotBusinessFactory;
+use ChannelPilot\Zed\ChannelPilot\Business\ChannelPilotBusinessFactory;
 
 /**
- * @method \SprykerEco\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
- * @method \SprykerEco\Zed\ChannelPilot\ChannelPilotConfig getConfig()
+ * @method \ChannelPilot\Zed\ChannelPilot\Persistence\ChannelPilotQueryContainer getQueryContainer()
+ * @method \ChannelPilot\Zed\ChannelPilot\ChannelPilotConfig getConfig()
  */
 class ChannelPilotCommunicationFactory extends AbstractCommunicationFactory
 {

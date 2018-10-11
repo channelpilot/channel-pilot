@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerEco\Shared\ChannelPilot;
+namespace ChannelPilot\Shared\ChannelPilot;
 
 interface ChannelPilotConstants
 {
